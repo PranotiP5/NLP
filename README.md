@@ -10,3 +10,5 @@ Example 1 : CELLULAR COMMUNICATIONS INC. sold 1,550,000 common shares at $21.75 
 In example 1, there is ambiguity as period is used in lot of places which are not sentence segmentation or boundary markers. In Kiss, Tibor and Strunk, Jan (2006), language independent way of determining sentence boudaries for such text with high accuracy is discussed. This paper is then implemented in punkt library in nltk python library. 
 
 **Stemming:** The process of reducing words into their stem words is called stemming. The stem word for history and historical is histori. Many applications like sentiment analysis, spam classifier etc. use words to understand the meaning. However, stemming just provides stem words. Stem words many times do not carry any meaning. Here, we need lemmatization.
+
+**Lemmatization:** Lemmatization is similar to stemming except that it provides meaningful stem words. It is slower than stemming. It's applications include chatbot, question answering system. 
