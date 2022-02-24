@@ -11,4 +11,8 @@ In example 1, there is ambiguity as period is used in lot of places which are no
 
 **Stemming:** The process of reducing words into their stem words is called stemming. The stem word for history and historical is histori. Many applications like sentiment analysis, spam classifier etc. use words to understand the meaning. However, stemming just provides stem words. Stem words many times do not carry any meaning. Here, we need lemmatization.
 
-**Lemmatization:** Lemmatization is similar to stemming except that it provides meaningful stem words. It is slower than stemming. It's applications include chatbot, question answering system. 
+**Lemmatization:** Lemmatization is similar to stemming except that it provides meaningful stem words. It is slower than stemming. It's applications include chatbot, question answering system.
+
+**Cleaning or Pre-processing:**  This may involve removing unnecessary punctuations, commas etc. , removing stop words which do not add to the meaning of a paragraph. It will also involve lowering of sentences. It includes stemming or lemmatization.
+
+**Bag of Words:** Its a document matrix. It translates words to numerical representation called vectors. CounterVectorizer from sklearn library creates a histogram of words. CounterVectorizer.fit_transform will then create a matrix of sentences to words. It will tell which words occur in a sentence. This can then be fed to machine learning models for various applications like sentiment analysis.
