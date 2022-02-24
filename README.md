@@ -16,3 +16,5 @@ In example 1, there is ambiguity as period is used in lot of places which are no
 **Cleaning or Pre-processing:**  This may involve removing unnecessary punctuations, commas etc. , removing stop words which do not add to the meaning of a paragraph. It will also involve lowering of sentences. It includes stemming or lemmatization.
 
 **Bag of Words:** Its a document matrix. It translates words to numerical representation called vectors. CounterVectorizer from sklearn library creates a histogram of words. CounterVectorizer.fit_transform will then create a matrix of sentences to words. It will tell which words occur in a sentence. This can then be fed to machine learning models for various applications like sentiment analysis.
+
+**Term Frequency Inverse Document Frequency (TFIDF)** TF is ratio of number of repetition of words in sentence to number of words in that sentence. IDF is log of ratio of number of sentences to the number of sentences containing the word. TFIDF is multiplication of TF and IDF. It gives less importance to frequently occuring words. 
