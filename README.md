@@ -21,4 +21,4 @@ In example 1, there is ambiguity as period is used in lot of places which are no
 
 **(NLP 6)Spam Classifier** Using Naive Bayes classification algorithm and around 5000 SMS(UCI Machine Learning Repository), SMS are classified with 99.28% accuracy as either ham or spam. Pre-processing steps like removing unnecessary punctuations, commas etc. , removing stop words which do not add to the meaning of a paragraph, lowering of sentences, stemming or lemmatization were performed on the dataset of SMS. Lemmatization performed better than stemming for same parameters like max_features and test_size. Bag of words and TF-IDF performed equally well. max_features parameter of 2500 perfomed well. test_size of 0.05 gave maximum accuracy of 99.28. 
 
-**Word2vec**
+**Word2vec** Bag of words and TF-IDF have problems of not storing semantic information and overfitting. Hence, we need word2vec which stores semantic and relationship between different words(like France and Paris). In word2vec, Each word is converted into a vector of dimension 32 or more. Similar words have similar vectors (like cat and cats). Operations can also be performed on vectors. 
