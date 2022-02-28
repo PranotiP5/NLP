@@ -10,7 +10,7 @@ import pandas as pd
 # In[2]:
 
 
-messages = pd.read_csv('/home/pranoti/Downloads/smsspamcollection/SMSSpamCollection', sep='\t',
+messages = pd.read_csv('smsspamcollection/SMSSpamCollection', sep='\t',
                            names=["label", "message"])
 
 
