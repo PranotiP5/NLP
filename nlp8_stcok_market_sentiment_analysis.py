@@ -4,7 +4,7 @@
 # In[1]:
 
 
-
+#Sun, J. (2016, August). Daily News for Stock Market Prediction, Version 1. Retrieved 28/02/2022 from https://www.kaggle.com/aaron7sun/stocknews.
 
 import pandas as pd
 
