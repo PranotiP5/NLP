@@ -122,7 +122,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 ## implement BAG OF WORDS
-countvector=CountVectorizer(ngram_range=(4,4))
+countvector=CountVectorizer(ngram_range=(1,4))
 traindataset=countvector.fit_transform(headlines)
 
 #Implement TF-IDF
